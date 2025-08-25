@@ -147,3 +147,6 @@ from spice_client.models.treatment_create import TreatmentCreate as TreatmentCre
 from spice_client.models.treatment_list import TreatmentList as TreatmentList
 from spice_client.models.treatment_name import TreatmentName as TreatmentName
 from spice_client.models.treatment_update import TreatmentUpdate as TreatmentUpdate
+
+# Apply pretty printing to all models
+import spice_client.pretty_print_patch
