@@ -12,7 +12,7 @@ pip install spice-client
 
 ```python
 from spice_client import ApiClient, Configuration
-from helpers.wrapper import get_jwt_token
+from spice_client.helpers.wrapper import get_jwt_token
 from spice_client.api.default_api import DefaultApi
 import pandas as pd
 import geopandas as gpd
