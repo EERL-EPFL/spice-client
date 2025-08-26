@@ -1,6 +1,6 @@
 [project]
 name = "spice-client"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Python client library for the SPICE ice nucleation API"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -35,10 +35,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/EERL-Lab/SPICE"
-Repository = "https://github.com/EERL-Lab/SPICE.git"
-Documentation = "https://github.com/EERL-Lab/SPICE/tree/main/spice-client/docs"
-Issues = "https://github.com/EERL-Lab/SPICE/issues"
+Homepage = "https://github.com/EERL-EPFL/spice-client"
+Repository = "https://github.com/EERL-EPFL/spice-client.git"
+Documentation = "https://github.com/EERL-EPFL/spice-client/blob/main/README.md"
+Issues = "https://github.com/EERL-EPFL/spice-client/issues"
 
 [build-system]
 requires = ["hatchling"]
